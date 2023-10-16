@@ -56,7 +56,7 @@ To install it, run the following command, it will tell you if the package is alr
 
 ```bash
 sudo apt update
-sudo apt install pirogue-cli
+sudo apt install pirogue-ctl
 ```
 
 Once installed you can run:
@@ -68,7 +68,7 @@ If you have never applied any valid configuration, the command should display
 {{< img src="no_configuration" alt="No configuration currently applied" class="d-block mx-auto shadow" >}}
 
 ## Create or modify my own PiRogue configuration
-Once you have installed the `pirogue-cli` package and run `sudo pirogue-ctl config show` at least once, you can start reconfiguring your PiRogue. To do so, you first have to edit the appropriate configuration file:
+Once you have installed the `pirogue-ctl` package and run `sudo pirogue-ctl config show` at least once, you can start reconfiguring your PiRogue. To do so, you first have to edit the appropriate configuration file:
 
 ```bash
 sudo nano /var/lib/pirogue/config/pirogue.env
